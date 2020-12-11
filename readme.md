@@ -3,13 +3,19 @@
 ### 1. Clone repo and build docker container
 #### change name for project
 
-` git clone https://github.com/bblum9/Omics_Notebook_Rstudio.git`
+```
+git clone https://github.com/bblum9/Omics_Notebook_Rstudio.git
+```
 
-`docker build -t 'rstudio_on' .`
+```
+docker build -t 'rstudio_on' .
+```
 
 Or pull from docker hub.
 
-`docker pull bblum/omics_notebook_rstudio:latest`
+```
+docker pull bblum/omics_notebook_rstudio:latest
+```
 
 
 ### 2. Run docker for RStudio
@@ -28,6 +34,7 @@ docker run --rm -it \
 ```
 
 ### 3. Open in browser
+#### username is "rstudio"
 ```
 echo Launching browser                                                   
 open http://localhost:8787
