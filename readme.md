@@ -4,7 +4,11 @@
 #### change name for project
 
 `docker build -t 'rstudio_on' .`
+
 Or pull from docker hub.
+
+`docker pull bblum/omics_notebook_rstudio:latest`
+
 
 ### 2. Run docker for RStudio
 #### change container name based on project
