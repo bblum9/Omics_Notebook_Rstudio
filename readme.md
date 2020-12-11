@@ -1,7 +1,9 @@
 # Docker container for Rstudio
 
-### 1. build docker container
+### 1. Clone repo and build docker container
 #### change name for project
+
+` git clone https://github.com/bblum9/Omics_Notebook_Rstudio.git`
 
 `docker build -t 'rstudio_on' .`
 
