@@ -1,11 +1,12 @@
 # Docker container for Rstudio
 
-### build docker container
+### 1. build docker container
 #### change name for project
 
 `docker build -t 'rstudio_on' .`
+Or pull from docker hub.
 
-### Run docker for RStudio
+### 2. Run docker for RStudio
 #### change container name based on project
 #### change volumes based on install
 
@@ -20,7 +21,7 @@ docker run --rm -it \
   rstudio_on
 ```
 
-### Open in browser
+### 3. Open in browser
 ```
 echo Launching browser                                                   
 open http://localhost:8787
