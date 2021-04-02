@@ -1,4 +1,4 @@
-# Docker container for Rstudio
+# Docker container for Omics Notebook in Rstudio
 
 ### 1. Clone repo and build docker container
 #### change name for project
